@@ -1,4 +1,5 @@
 
+//calculator for two num using function and switch case
 #include<stdio.h>
 int add(int *x,int *y)
 {
