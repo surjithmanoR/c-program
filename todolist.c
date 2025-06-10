@@ -44,16 +44,19 @@ void view_task()
     fclose(fp);
     printf("\nTask Displayed");
 }
+void delete_task()
+{
+
+}
 int main()
 {
     int choice;
     while(1)
     {
-        printf("Select The operation:");
+        printf("\nSelect The operation:");
         printf("\n1.Add task");
      //   printf("2.Delete task");
         printf("\n3.View task");
-      //  printf("4.Save and Exit");
         printf("\n4.Save and Exit");
         printf("\nSelect your Choice: ");
 
@@ -72,6 +75,7 @@ int main()
             break;
         case 4:
             exit(0);
+            break;
         default:
             printf("Enter the valid choice");
 
